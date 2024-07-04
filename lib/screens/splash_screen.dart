@@ -1,3 +1,4 @@
+import 'package:affiliate_world/constants/colors.dart';
 import 'package:affiliate_world/screens/home.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-        backgroundColor: Colors.green,
+        backgroundColor: themeColor,
         body: SizedBox(
           child: Center(
             child: Text("Affiliate World",

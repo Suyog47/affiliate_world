@@ -1,3 +1,4 @@
+import 'package:affiliate_world/constants/colors.dart';
 import 'package:affiliate_world/widgets/text_field_decoration.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -42,7 +43,7 @@ class _HomeState extends State<Home> {
               color: Colors.white,
               fontWeight: FontWeight.bold,
             )),
-        backgroundColor: Colors.green,
+        backgroundColor: themeColor,
         centerTitle: true,
       ),
       body: Padding(
@@ -85,7 +86,7 @@ class _HomeState extends State<Home> {
                         padding: const EdgeInsets.symmetric(
                             horizontal: 10, vertical: 10),
                         decoration: BoxDecoration(
-                          color: Colors.green,
+                          color: themeColor,
                           borderRadius: BorderRadius.circular(5),
                         ),
                         child: const Text("Get the link",

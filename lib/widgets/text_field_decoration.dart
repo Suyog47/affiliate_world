@@ -1,10 +1,11 @@
+import 'package:affiliate_world/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 const inputDecor = InputDecoration(
   filled: true,
   enabledBorder: OutlineInputBorder(
     borderSide: BorderSide(
-      color: Colors.green,
+      color: themeColor,
       width: 2,
     ),
     borderRadius: BorderRadius.all(
@@ -13,7 +14,7 @@ const inputDecor = InputDecoration(
   ),
   focusedBorder: OutlineInputBorder(
     borderSide: BorderSide(
-      color: Colors.green,
+      color: themeColor,
       width: 2,
     ),
     borderRadius: BorderRadius.all(
@@ -22,7 +23,7 @@ const inputDecor = InputDecoration(
   ),
   focusedErrorBorder: OutlineInputBorder(
     borderSide: BorderSide(
-      color: Colors.green,
+      color: themeColor,
       width: 2,
     ),
     borderRadius: BorderRadius.all(
@@ -31,7 +32,7 @@ const inputDecor = InputDecoration(
   ),
   errorBorder: OutlineInputBorder(
     borderSide: BorderSide(
-      color: Colors.green,
+      color: themeColor,
       width: 2,
     ),
     borderRadius: BorderRadius.all(

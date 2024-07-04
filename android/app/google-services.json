@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "137608509767",
+    "project_id": "affiliateworld-1a1e3",
+    "storage_bucket": "affiliateworld-1a1e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137608509767:android:f3a52efd2a8b12f563b462",
+        "android_client_info": {
+          "package_name": "com.affiliateworld.affiliate_world"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpv3cE29HT1Od2ONd0peX5jszkKaOs9Fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
